@@ -1,0 +1,182 @@
+@font-face{
+	font-family: "Helvetica";
+	scr: url("fonts/HelveticaUltraLt_0.ttf");
+}
+
+@font-face{
+	font-family: "Roboto Regular";
+	scr: url("fonts/Roboto-Regular_0.ttf");
+}
+
+@font-face{
+	font-family: "Roboto Light";
+	scr: url("fonts/Robot-Light_0.ttf");
+}
+
+@font-face{
+	font-family: "Helvetica Condensed";
+	scr: url("fonts/ps.ttf");
+}
+
+body{
+	font-family: "Helvetica";
+	
+}
+
+
+/*Página Inicial*/
+#home{
+	height: 840px;
+	background-size: cover;
+	background: url(imagens/index-image.jpg) no-repeat center ;
+}
+
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.divisor{
+	color: white;
+
+}
+
+section > div{
+	padding-top: 1em;
+}
+h2, h3{
+	font-style: italic;
+}
+
+/*Cadastro*/
+
+#cadastro{
+	height: 840px;
+	background: #29abe2;
+	padding-top: 50px;
+}
+
+h1{
+	font-family: "Helvetica";
+	font-weight: lighter;
+	font-size: 5em;
+	font-style: italic;
+	text-align: center;
+	padding-top: 10px;
+	text-decoration: none;
+	color: #FFF;
+
+}
+
+.inputBox{
+	position: relative;
+	color: #FFF;
+	font-family: "Roboto Regular";
+	font-size: 1.4em;
+}
+
+.inputUser{
+	font-family: "Helvetica Condensed";
+	background: none;
+	border: none;
+	border-bottom: 1px solid white;
+	color: #FFF;
+	font-size: 1.2em;
+}
+
+.inputUser:focus{
+	background: none;
+	outline: none;
+	border-bottom: 1px solid white;
+	color: #fff;
+}
+
+.flex_container{
+	display: flex;
+	justify-content: center;
+}
+
+#button{
+	margin-top: 70px;
+	background: #012d51;
+	color: #29abe2;
+	font-size: 4em;
+	padding: 10px 20px;
+	text-align: center;
+
+}
+
+.button_allign{
+	text-align: center;
+}
+
+/*Lista de Cadastro*/
+
+#lista_cadastro{
+	height: 840px;
+	background: #FFF;
+	padding-top: 50px;
+}
+
+#table_cadastro{
+	text-align: center;
+	color: #808080;
+	font-weight: bold;
+	margin-top: 100px;
+	font-family: "Helvetica Condensed";
+
+}
+
+.table_row{
+	color: #012d51;
+	font-family: "Roboto Regular";
+}
+
+.table td{
+    border-top: 1px solid #29abe2;
+    border-right: 1px solid #29abe2;
+}
+
+.border_none{
+	border-bottom: none;
+}
+
+.table_row td{
+	border-top: none;
+	text-decoration: #012d51;
+	font-size: 1.5em;
+}
+
+/*Rodapé*/
+
+#rodape{
+	clear: both;
+	height: 330px;
+	background-size: cover;
+	background: url(imagens/rodape-desktop.jpg) no-repeat center;
+	color: #FFF;
+
+}
+
+#rodape_itens{
+	padding-top: 80px;
+}
+
+footer p{
+	font-family: "Roboto Light";
+	font-size: 1.5em;
+	text-align: center;
+	line-height: 20px;
+}
+
+
+/*Medias Querrys*/
+
+@media (max-width: 991.98px){
+	#logo{
+		text-align: right;
+	}
+	.divisor{
+		display: none;
+	}
+}
